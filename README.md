@@ -1,6 +1,6 @@
 # ProNunciation
 
-Download voice samples from LEO Online Dictonary or Google Translate and saves them as .mp3 files.
+Download voice samples from [LEO Online Dictonary](https://dict.leo.org/) or [Google Translate](https://translate.google.com) and saves them as .mp3 files.
 
 We try to get audio files from [LEO](https://dict.leo.org/) (the human ones, we totally ignoring the robot generated ones because in this case, Google's robots are better.) and, in case that doesn't work, we go to Google translate.
 
