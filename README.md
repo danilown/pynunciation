@@ -73,7 +73,7 @@ This script is far from perfect. Some of the following issues can be fixed with 
 
 Here are some limitations that a user can encounter when using the script.
 
-> note that these limitations can be bypassed following the the steps shown [here](#Advanced-&-Troubleshooting).
+> note that these limitations can be bypassed following the the steps shown [here](#advanced--troubleshooting).
 
 ### Leo has the audio files but the script is unable to get it
 
