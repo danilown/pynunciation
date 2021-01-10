@@ -2,7 +2,7 @@
 
 Download voice samples from [LEO Online Dictonary](https://dict.leo.org/) or [Google Translate](https://translate.google.com) and saves them as .mp3 files.
 
-We try to get audio files from [LEO](https://dict.leo.org/) (the human ones, we totally ignoring the robot generated ones because in this case, Google's robots are better.) and, in case that doesn't work, we go to Google translate.
+We try to get audio files from [LEO](https://dict.leo.org/) (human voices, robot generated voices in Leo are ignored because, in this case, Google's synthetic voice is better.). In case we can't find the audio file we are looking in Leo, we get it from Google translate.
 
 This can be useful when you want to get audio files to use it in your Anki decks, for example (my case).
 
@@ -66,6 +66,18 @@ In the tutorials case, the copied code was `R9ic4hBwCrJUSuBxmN3XRA`, so the fina
 `python pro_nunciation.py --word "Die Sonne" --leo_code R9ic4hBwCrJUSuBxmN3XRA`
 
 > if the `--word` is not provided in this case, the script will still work, but be aware that you will end up with a `random_leters.mp3` in your folder.
+
+## Known limitations
+
+This script is far from perfect. Some of the following issues can be fixed with relative ease, so if any of the following issues is affecting you more than you would like, have a look at the [Support Section](#Support) bellow or, if you can, contribute!
+
+Here are some limitations that a user can encounter when using the script.
+
+> note that these limitations can be bypassed following the the steps shown [here](#Advanced-&-Troubleshooting).
+
+### Leo has the audio files but the script is unable to get it
+
+This happens because, for some reason, Leo's entry for that word does not include an audio file of the original audio
 
 ## Support
 
