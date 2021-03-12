@@ -1,10 +1,12 @@
-# ProNunciation
+# Ppynunciation
 
 Download voice samples from [LEO Online Dictonary](https://dict.leo.org/) or [Google Translate](https://translate.google.com) and saves them as .mp3 files.
 
 It tries to get audio files from [LEO](https://dict.leo.org/) (human voices, robot generated voices in Leo are ignored because, in this case, Google's synthetic voice is better.). In case it can't find the audio file it is looking for in Leo, it gets it from Google translate.
 
 This can be useful when you want to get audio files to use it in your Anki decks, for example (my case).
+
+The code is hosted [here](https://github.com/danilown/pynunciation);
 
 ## Dependencies
 
@@ -83,4 +85,4 @@ This is highly experimental, done for fun and the necessity of downloading audio
 
 ## Support
 
-If you would like to see a new functionality, have a suggestion on how to make the documentation clearer or report a problem, you can open an [issue](https://github.com/danilown/FileListDataset/issues/new) here on Github or send me an e-mail danilownunes@gmail.com.
+If you would like to see a new functionality, have a suggestion on how to make the documentation clearer or report a problem, you can open an [issue](https://github.com/danilown/pynunciation/issues/new) here on Github or send me an e-mail danilownunes@gmail.com.
