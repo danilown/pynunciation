@@ -1,4 +1,4 @@
-# Ppynunciation
+# Pynunciation
 
 Download voice samples from [LEO Online Dictonary](https://dict.leo.org/) or [Google Translate](https://translate.google.com) and saves them as .mp3 files.
 
