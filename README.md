@@ -2,7 +2,7 @@
 
 Download voice samples from [LEO Online Dictonary](https://dict.leo.org/) or [Google Translate](https://translate.google.com) and saves them as .mp3 files.
 
-We try to get audio files from [LEO](https://dict.leo.org/) (human voices, robot generated voices in Leo are ignored because, in this case, Google's synthetic voice is better.). In case we can't find the audio file we are looking in Leo, we get it from Google translate.
+It tries to get audio files from [LEO](https://dict.leo.org/) (human voices, robot generated voices in Leo are ignored because, in this case, Google's synthetic voice is better.). In case it can't find the audio file it is looking for in Leo, it gets it from Google translate.
 
 This can be useful when you want to get audio files to use it in your Anki decks, for example (my case).
 
@@ -10,9 +10,7 @@ This can be useful when you want to get audio files to use it in your Anki decks
 
 ### Python
 
-You need at least `python>=3.6` to run this script.
-
-What things you need to install and how to install them.
+You will need at least `python>=3.6` and the following dependencies are necessary to run this script:
 
 ```python
 google_speech==1.1.0
@@ -78,6 +76,10 @@ Here are some limitations that a user can encounter when using the script.
 ### Leo has the audio files but the script is unable to get it
 
 This happens because, for some reason, Leo's entry for that word does not include an audio file of the original audio
+
+## Disclaimers
+
+This is highly experimental, done for fun and the necessity of downloading audio files from these websites. The code can be improved in several ways;
 
 ## Support
 
