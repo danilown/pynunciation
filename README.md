@@ -8,12 +8,6 @@ This can be useful when you want to get audio files to use it in your Anki decks
 
 The code is hosted [here](https://github.com/danilown/pynunciation);
 
-## Disclaimers
-
-- This script is intended for personal use and has a lot of limitations. Feel free to use it however you like, just don't sue me.
-
-- Use it at your own risk, I have no idea whether this violates Leo's and/or Translate's terms of use.
-
 ## Dependencies
 
 ### Python
@@ -87,7 +81,9 @@ This happens because, for some reason, Leo's entry for that word does not includ
 
 ## Disclaimers
 
-This is highly experimental, done for fun and the necessity of downloading audio files from these websites. The code can be improved in several ways;
+- This is highly experimental, done for fun and the necessity of downloading audio files from these websites. The code can be improved in several ways. Feel free to use it however you like, just don't sue me;
+
+- Use it at your own risk, I have no idea whether this violates Leo's and/or Translate's terms of use.
 
 ## Support
 
