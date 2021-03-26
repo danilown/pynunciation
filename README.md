@@ -2,9 +2,11 @@
 
 Download voice samples from [LEO Online Dictonary](https://dict.leo.org/) or [Google Translate](https://translate.google.com) and saves them as .mp3 files.
 
-It tries to get audio files from [LEO](https://dict.leo.org/) (human voices, robot generated voices in Leo are ignored because, in this case, Google's synthetic voice is better.). In case it can't find the audio file it is looking for in Leo, it gets it from Google translate.
+The script tries to get audio files from [LEO](https://dict.leo.org/) (human voices, robot generated voices in Leo are ignored because, in this case, Google's synthetic voice is better.). In case it can't find the audio file it is looking for in Leo, it gets it from Google translate.
 
 This can be useful when you want to get audio files to use it in your Anki decks, for example (my case).
+
+This script is intended for personal use and has a lot of limitations. Feel free to use it however you like.
 
 The code is hosted [here](https://github.com/danilown/pynunciation);
 
