@@ -6,9 +6,13 @@ The script tries to get audio files from [LEO](https://dict.leo.org/) (human voi
 
 This can be useful when you want to get audio files to use it in your Anki decks, for example (my case).
 
-This script is intended for personal use and has a lot of limitations. Feel free to use it however you like.
-
 The code is hosted [here](https://github.com/danilown/pynunciation);
+
+## Disclaimers
+
+- This script is intended for personal use and has a lot of limitations. Feel free to use it however you like, just don't sue me.
+
+- Use it at your own risk, I have no idea whether this violates Leo's and/or Translate's terms of use.
 
 ## Dependencies
 
@@ -35,7 +39,7 @@ pip install -r requirements.txt
 
 Normally you will use this script like this:
 
-`python pro_nunciation.py --word "Die Sonne"`
+`python pynunciation.py --word "Die Sonne"`
 
 You will be informed from where the audio is coming from (Google translate or LEO);
 
@@ -47,7 +51,7 @@ In case the script magic is not working, you can force some stuff.
 
 To force Google Translate engine:
 
-`python pro_nunciation.py --word "Die Sonne" --force_google 1`
+`python pynunciation.py --word "Die Sonne" --force_google 1`
 
 In the worst case scenario, if the script cannot recognize the correct audio file from LEO (and brings the wrong things or simply falls back to Google Translate), you can provide the audio code yourself.
 
@@ -65,7 +69,7 @@ The following GIF should well illustrate the process:
 
 In the tutorials case, the copied code was `R9ic4hBwCrJUSuBxmN3XRA`, so the final command would be:
 
-`python pro_nunciation.py --word "Die Sonne" --leo_code R9ic4hBwCrJUSuBxmN3XRA`
+`python pynunciation.py --word "Die Sonne" --leo_code R9ic4hBwCrJUSuBxmN3XRA`
 
 > if the `--word` is not provided in this case, the script will still work, but be aware that you will end up with a `random_leters.mp3` in your folder.
 
